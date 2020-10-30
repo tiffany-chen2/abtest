@@ -2,98 +2,84 @@
 
 <html>
   <head>
-    <title>Personas Project</title>
+    <title>A/B Testing Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&family=Poppins:wght@600&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <div class="center">
-      <h1 class="title">Personas & Storyboarding Project: TOASTER OVEN</h1>
+      <h1 class="title" style="padding-top: 50px;">A/B Testing Project</h1>
     </div>
 
     <div class="flex-container-col">
-      <div> <img style="width:700px;height:auto;" src="sideview.png"></div>
-      <div> <img class="image-prov" src="frontview.png"></div>
+      <div><h2 style ="margin-top: 50%; font-size:100%">INTERFACE A</h2></div>
+      <div><img style = "width: 700px; height: auto;" src="interfacea.png"></div>
+      <div><h2 style ="margin-top: 20%; font-size:100%">INTERFACE B</h2></div>
+      <div><img style = "width: 700px; height: auto;" src="interfaceb.png"></div>
+    
     </div>
 
     <div class="center, bottompadding">
-      <p class="paragraph">The purpose of a toaster oven is to offer a more compact, versatile, and efficient alternative 
-        to a regular oven, making it easier and more accessible for everyday use. Its key components are the two dials that 
-        control heat and time, which are labeled with increasing intervals that fit each function. These toaster ovens are 
-        typically found in homes and other living areas that may require a smaller substitute for large ovens, or are used 
-        by people who enjoy the convenience of a small toaster oven. Note: I chose this interface because I mainly stay
-         at home and we don't have many appliances and interfaces -- sorry!! :(</p>
+      <br>
+      <p class="paragraph" style = "margin-top: 1%;">In this project, I created two versions of the same website to see which one has a better user interface. The main difference between Interface A and B is the layout: A has a grid layout, whereas B has a vertical layout that needs scrolling.</p>
     </div>
 
-    <div class="center, extrapadding", style="background-color:#cbdcee;">
-      <h2 class="h2">Recorded Observations</h2>
-      <p class="paragraphleft">I interviewed my parents in person so they could interact with the toaster oven, 
-        and one friend over Zoom (I sent her pictures of the toaster and dials). I purposefully chose these people because 
-        they represented a range of age, gender, and socioeconomic demographics. During these interviews, I noticed:
+    <div class="center, extrapadding" style="background-color:#e4eefd;">
+      <h2 class="h2">Creating Hypothesess</h2>
+      <br>
+      <h3 class="h3">Time to Completion</h3>
+      <h6 class="h6">Null Hypothesis:</h6>
+      <p class="paragraphleft"><i><b>The time to completion (i.e. the time it takes to order at least $150 of cacti) for Interface A is no different from the time to completion of Interface B.</b></i>
+        <br> Thus, there is no relationship between these variables, so there should be no statistical difference between the two interfaces' time to completion. 
       </p>
-      <ul class="lists">
-        <li>All users instinctively knew how to use the toaster oven. My parents use it everyday, but my friend 
-          immediately knew how to set the time and heat dials, showing that comprehending these functions is universal</li>
-        <li>Everyone focused more on the time dial instead of the heat dial, and all adjusted the dials approximately 
-          instead of turning to exact values</li>
-        <li>The people who typically only use the toaster oven for breakfast (my dad and friend) rarely touched the heat 
-          dial and kept it on "low heat". In contrast, my mom uses the oven for all 3 meals of the day, and was more 
-          comfortable with adjusting the heat settings</li>
-        <li>Everyone enjoyed the practicality and simplicity of the toaster, but some wished for more complex functions
-        </li>
-      </ul>
-    </div>
-
-    <div class="center, extrapadding", style="background-color:#f0e7d7;">
-      <h2 class="h2">Questions & Interviews</h2>
-      <p class="paragraphleft">Questions:</p>
-      <ol class="lists">
-        <li>When would you choose to use this toaster oven over another kitchen appliance, and for what purposes / types of cooking? 
-        </li>
-        <li>To what extent does its smaller size affect your reasons for using this appliance?</li>
-        <li>Do you think pulling the lever to open the toaster oven is efficient?</li>
-        <li>How effective do you think the dials are on a toaster oven, and is it easy to understand and use?</li>
-        <li>Which dial do you most frequently use and why?</li>
-        <li>Given how the dials are displayed, have you ever been confused by which dial to use, or do you ever reach
-           for the wrong dial? If so, how often in the past 2 weeks?</li>
-        <li>How effective is representing time and heat in the circular fashion of a dial?</li>
-        <li>Does seeing the whole range of increments of time and heat help you in using this toaster oven? Would you prefer 
-          to see these increments represented with a different visual design (linear scale, keypad)?</li>
-        <li>How many times in the past 2 weeks have you turned the dial inaccurately (not achieving the result you want)?</li>
-        <li>Can you suggest some improvements for this toaster, and what other functions would you want this toaster to have?</li>
-      </ol>
-      <p class="paragraphleft">Interview Responses:</p>
-      <img style="width:700px;height:auto;" src="flo.png", class = "center">
-      <img style="width:700px;height:auto;" src="mom.png", class = "center">
-      <img style="width:700px;height:auto;" src="dad.png", class = "center">
-    </div>
-
-    <div class="center, extrapadding", style="background-color:#e2f0d7;">
-      <h2 class="h2">Personas & Empathy Maps</h2>
-      <img style="width:700px;height:auto;" src="peggy.png", class = "center">
-      <br> <br>
-      <img style="width:700px;height:auto;" src="chris.png", class = "center">
-    </div>
-
-    <div class="center, extrapadding", style="background-color:#cfebe6;">
-      <h2 class="h2">Storyboard</h2>
-      <img style="width:850px;height:auto;" src="storyboard.png", class = "center">
-      <p class = "paragraph">This storyboard is written for Practical Peggy, and shows how she uses the toaster oven for dinner. After coming home from a tiring day from work, Peggy uses the toaster oven to quickly make pizzas and buffalo wings for her family. She can easily control the toaster to make these simple recipes, so the toaster is a practical and efficient solution to her dinner challenges. </p>
+      <h6 class="h6">Alternative Hypothesis:</h6>
+      <p class="paragraphleft"><i><b>The time to completion for Interface A should be less than the time to completion for Interface B.</b></i>
+        <br>This is because the cacti in Interface A are presented in a 2x2 grid so the user can see all of the cacti without scrolling, and the checkout button is also below these cacti such that the design is intuitive and flows well. In contrast, the cacti in Interface B are presented in a list so the user has to scroll downwards, and the checkout button is also at the top of the page, meaning the user has to scroll back up to the top to complete the task. </p>
+      <br>
+      <br>
+      <h3 class="h3">Return Rate</h3>
+      <h6 class="h6">Null Hypothesis:</h6>
+      <p class="paragraphleft"><i><b>The return rate (i.e. the number of times a user returned to the browsing page from the checkout page) for Interface A is no different from the return rate of Interface B. </b></i>
+        <br> Thus, there is no relationship between these variables, so there should be no statistical difference between the two interfaces' return rate.</p>
+      <h6 class="h6">Alternative Hypothesis:</h6>
+      <p class="paragraphleft"><i><b>The return rate for Interface A should be lower than the return rate for Interface B. </b></i>
+        <br>Intuitively, I think returning to the browsing page signifies inefficiency, as the objective is for the user to purchase cacti, not return back to the browsing page to take additional steps or double check their order. Even though the prices in Interface B are bolded to add clarity, I think the overall layout (grid in A versus list in B) should make A the more efficient page, meaning users can checkout more accurately, resulting in a lower return rate. </p>
     </div>
 
     <div class="center, extrapadding">
-      <h2 class="h2">References & Image Citations</h2>
-      <p class = "paragraphleft">I used Canva to create the empathy maps and the storyboard, and also used the following images:</p>
-      <ul class="lists">
-        <li>Peggy: https://image.freepik.com/free-vector/casual-woman-character-set_1893-1861.jpg</li>
-        <li>Sarah: https://www.vectorstock.com/royalty-free-vector/teenager-girl-character-constructor-creation-set-vector-18931086</li>
-        <li>Office Background: http://www.vectorpicker.com/office-interior-clip-art_271714_36.html
-        </li>
+      <h2 class="h2">Collecting Data</h2>
+      <br>
+      <p class = "paragraph">My data collection process primarily involved having students in different studios test out my two interfaces. However, since I had fewer than 40 data sets (my link was low on the Excel sheet), I asked some of my friends to test out my interfaces as well. Ideally, having more data sets would have resulted in more accurate results, but hopefully 24 data sets can show statistical significance!</p>
+      <img class = "center" style = "width: 800px; height: auto; padding-top: 0%;" src="dsets.png">
+    </div>
+
+    <div class="center, extrapadding", style="background-color:#d9f1d7;">
+      <h2 class="h2">Conclusions & Takeaways</h2>
+      <br>
+      <img class = "center" style = "width: 600px; height: auto;" src="infographic.png">
+      <br>
+      <br>
+      <h3 class="h3">Brief Summary</h3>
+      <h6 class = "h6">Time to Completion: </h6>
+      <p class = "paragraphleft">Since the p-value of 0.041 is less than the significance value of 0.05, I can reject the null hypothesis. This means there is a statistical significance between the difference of the time to completion of A & B, so I can adopt my alternative hypothesis. By comparing the average times of A & B, I conclude that the time to completion of A is less than that of B. </p>
+      <h6 class = "h6">Return Rate: </h6>
+      <p class = "paragraphleft">Since the p-value of 0.916 is greater than the significance value of 0.05, I failed to reject the null hypothesis. This means that there is no statistical significance between the difference of the return rate of A & B. </p>
+      <br>
+      <h3 class="h3">A/B Testing Takeaways</h3>
+      <ul class="lists" style = "color: black">
+        <li>The results of A/B testing are dependent on having sufficient data -- my experiment results could have been more accurate if I had more data sets. Having similar numbers of data sets for Interface A and B is also important, as having more of one interface could skew the data. </li>
+        <li>Since the time to completion of my Interface A (grid layout) is less than that of Interface B (vertical layout), having a layout where users can see items without additionally scrolling is a more efficient design. </li>
+        <li>This experiment demonstrated the importance of good design principles (ex. page layout, affordances, colors, content hierarchy) because they do have a statistically significant impact on how users interact with the page.</li>
       </ul>
+    </div>
+
+    <div class="center, extrapadding text-center">
+      <h2 class="h2">References & Image Citations</h2>
+      <p class = "paragraphleft">I used Canva to create the infographic.</p>
     </div>
 
   </body>
